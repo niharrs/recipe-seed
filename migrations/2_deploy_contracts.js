@@ -5,12 +5,10 @@ module.exports = function(deployer) {
 
     deployer.deploy(Recipe)
     .then(() => {
-        let config = {
-            localhost: {
-                url: 'http://localhost:7545',
-                appAddress: Recipe.address
-            }
+        let schema = {
+            "todo": null
         }
-        fs.writeFileSync(__dirname + '/../build/ui-schema.json',JSON.stringify(config, null, '\t'), 'utf-8');
+
+        fs.writeFileSync(__dirname + '/../build/ui-schema.json',JSON.stringify(shema, null, '\t'), 'utf-8');
     });
 }
