@@ -1,0 +1,25 @@
+{
+  "name": "recipe-seed",
+  "version": "0.1.0",
+  "description": "Seed project for TryCrypto SmartPage recipes.",
+  "directories": {
+    "test": "test"
+  },
+  "repository": "https://github.com/trycrypto/recipe-seed",
+  "license": "MIT",
+  "scripts": {
+    "test": "truffle test ./test/recipe.js"
+  },
+  "contributors": [
+    "Nik Kalyani <nik@kalyani.com> https://www.kalyani.com"
+  ],
+  "devDependencies": {
+    "bignumber.js": "8.0.2",
+    "bs58": "4.0.1",
+    "truffle": "5.0.2",
+    "truffle-assertions": "0.9.0",
+    "truffle-hdwallet-provider": "1.0.2",
+    "web3": "1.0.0-beta.54"
+  },
+  "dependencies": {}
+}
