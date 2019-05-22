@@ -9,6 +9,6 @@ module.exports = function(deployer) {
             "todo": null
         }
 
-        fs.writeFileSync(__dirname + '/../build/ui-schema.json',JSON.stringify(shema, null, '\t'), 'utf-8');
+        fs.writeFileSync(__dirname + '/../build/ui-schema.json',JSON.stringify(schema, null, '\t'), 'utf-8');
     });
 }
